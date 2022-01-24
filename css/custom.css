@@ -1,0 +1,96 @@
+/* Custom CSS for Noteslab */
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+  background-color: #eef1ef;
+  margin: 0 auto;
+  color: #1C2321;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+@media (max-width:1180px) {
+  .navbar {
+    padding: 2% 0;
+  }
+}
+
+.navbar-brand {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.nav-item {
+  font-size: 1.125rem;
+  padding: 0 15px;
+}
+
+.dropdown-divider {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.row-header {
+  padding: 5% 0;
+}
+
+.h1-header {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.btn {
+  margin:20px 10px 20px 0;
+}
+
+@media (max-width:1180px) {
+  .btn {
+    text-align: center;
+  }
+}
+
+.btn:hover {
+  -webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+
+.btn-dblue {
+  background-color: #5E6572;
+  color: white;
+}
+
+.btn-dblue:hover {
+  background-color: #1C2321;
+  color: white;
+}
+
+.btn-lblue {
+  background-color: #A9B4C2;
+  color: white;
+}
+
+.btn-lblue:hover {
+  background-color: #1C2321;
+  color: white;
+}
+
+.header-img {
+  width: 100%;
+}
+
+@media (max-width:1180px) {
+  .header-img {
+    margin: 5% auto;
+  }
+}
