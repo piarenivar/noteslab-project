@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3596f02005.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,8 +48,8 @@
       <div class="row row-header">
         <div class="col-lg-6">
           <h1>Welcome to <span class="h1-header">NOTΞSLΛB</span>.<br>The smarter way to stay organized.</h1>
-          <button type="button" class="btn btn-dblue btn-lg">Sign In</button>
-          <button type="button" class="btn btn-lblue btn-lg">Sign Up</button>
+          <button type="button" class="btn hero-btn btn-dblue btn-lg">Sign In</button>
+          <button type="button" class="btn hero-btn btn-lblue btn-lg">Sign Up</button>
         </div>
         <div class="col-lg-6 header-image-div">
           <img src="images/noteslab-laptop-mockup.png" alt="Noteslab Laptop Mock-up" class="header-img">
@@ -92,21 +93,21 @@
             <div class="carousel-content">
               <h2>"Probably the best notes organization and productivity app that I have ever used. It's incredibly user-friendly, it's sleek design makes it easy to use, and it's free. What's not to love?"</h2>
               <img src="images/user-one.png" alt="User" class="carousel-img">
-              <p>— Nicole Anderson</p>
+              <p>— Nicole Anderson, <em>Harvard</em></p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-content">
               <h2>"I love that I can organize all of my notes in specific notebooks, and create different stacks within. It makes it incredibly easy when I need to reference notes or documents for all of my classes."</h2>
               <img src="images/user-two.png" alt="User" class="carousel-img">
-              <p>— Timothy Collins</p>
+              <p>— Timothy Collins, <em>Stanford</em></p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-content">
               <h2>"I can keep track of all my classes, stay on top of my productivity through the tasks feature, and manage my personal finances all from one place. What more can I ask for?"</h2>
               <img src="images/user-three.png" alt="User" class="carousel-img">
-              <p>— Amy Gray</p>
+              <p>— Amy Gray, <em>Rice</em></p>
             </div>
           </div>
         </div>
@@ -135,30 +136,37 @@
 
   <section id="pricing">
     <div class="container-fluid">
+      <div class="pricing-title">
+        <h1 class="h1-pricing">Find the right plan for you.</h1>
+        <h6>Simple, and affordable plans. The easy way. The smarter way.</h6>
+      </div>
       <div class="row pricing-row">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
               <h3 class="pricing-h3">Free</h3>
             </div>
             <div class="card-body">
-              <h2 class="pricing-h2">&#36;0.00</h2>
+              <h2 class="pricing-h2">&#36;0.00<span class="pricing-h2-small-text"> / month</span></h2>
               <h5>Get access to:</h5>
               <p>— Notebooks</p>
               <p>— Calendar</p>
               <p>— Sheets</p>
               <p>— Sync up to 2 devices</p>
               <p>— 2 GB</p>
+              <div class="btn-card">
+                <button type="button" class="btn btn-lg pricing-btn btn-lblue-outline">Sign up for free</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
               <h3 class="pricing-h3">Personal</h3>
             </div>
             <div class="card-body">
-              <h2 class="pricing-h2">&#36;4.99</h2>
+              <h2 class="pricing-h2">&#36;4.99<span class="pricing-h2-small-text"> / month</span></h2>
               <h5>Get access to:</h5>
               <p>— Notebooks</p>
               <p>— Calendar</p>
@@ -166,16 +174,19 @@
               <p>— Sync up to 5 devices</p>
               <p>— 10 GB</p>
               <p>— Customize your personal theme</p>
+              <div class="btn-card">
+                <button type="button" class="btn btn-lg pricing-btn btn-dblue">Get started</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
             <div class="card-header">
               <h3 class="pricing-h3">Business</h3>
             </div>
             <div class="card-body">
-              <h2 class="pricing-h2">&#36;9.99</h2>
+              <h2 class="pricing-h2">&#36;9.99<span class="pricing-h2-small-text"> / month</span></h2>
               <h5>Get access to:</h5>
               <p>— Notebooks</p>
               <p>— Calendar</p>
@@ -184,10 +195,34 @@
               <p>— Unlimited storage</p>
               <p>— Customize your personal theme</p>
               <p>— Create and assign accounts</p>
+              <div class="btn-card">
+                <button type="button" class="btn btn-lg pricing-btn btn-dblue">Contact Us</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <section id="calltoaction">
+    <div class="container-fluid">
+      <h1 class="calltoaction-h1">
+        Optimize your productivity, and simplify your life today!
+      </h1>
+      <button type="button" class="btn hero-btn btn-dblue btn-lg btn-cta">Sign Up</button>
+      <p>Already have an account? <a href="#" class="cta-log-in">Log in</a></p>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container-fluid">
+      <ul class="social-media">
+        <li class="sm-li-icon"><a href="#" class="icon-href"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+        <li class="sm-li-icon"><a href="#" class="icon-href"><i class="fa-brands fa-facebook-f fa-2x"></i></a></li>
+        <li class="sm-li-icon"><a href="#" class="icon-href"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+        <li class="sm-li-icon"><a href="https://github.com/piarenivar"target="_blank" class="icon-href"><i class="fa-brands fa-github fa-2x"></i></a></li>
+      </ul><br>
+      <p>@ 2022 Noteslab. All rights reserved.</p>
+      <a href="https://github.com/piarenivar"target="_blank" class="piarenivar"><em>Powered by piarenivar</em></a>
     </div>
   </section>
 
