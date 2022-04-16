@@ -1,0 +1,124 @@
+/* Custom CSS for Noteslab - Sign up or log in page*/
+body {
+  background-color: #5E6572;
+}
+
+#welcome-back {
+  /* background-color: #FFF; */
+  height: 100vh;
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width:650px) {
+  #welcome-back {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.main-box {
+  background-color: white;
+  border-radius: 3%;
+  height: 665px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+@media (max-width:650px) {
+  .main-box {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+  }
+}
+
+.logo {
+  height: 6rem;
+  margin: 64px 0 32px;
+}
+
+/* .logo-href {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.logo-href:hover {
+  -webkit-filter: brightness(98%);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+} */
+.welcome-h1 {
+  text-align: center;
+  /* font-size: 2rem; */
+  /* margin: 16px 0; */
+}
+
+.btn-google {
+  margin: 16px 0 8px;
+  color: #5E6572;
+  border: solid #5E6572 1px;
+}
+
+.btn-google:hover {
+  color: #242D2B;
+  border: solid #242D2B 1px;
+  background-color: #F3F5F7;
+}
+
+.fa-google {
+  margin-right: 6px;
+}
+
+/* .row-or {
+  margin: 0 auto;
+  }  */
+/* .col-or {
+  width: 32px;
+} */
+.input-log-in {
+  margin: 0 auto 8px;
+  width: 285px;
+}
+
+.btn-continue {
+  width: 285px;
+  color: #F3F5F7;
+  background-color: #5E6572;
+  margin: 0 0 32px;
+}
+
+.btn-continue:hover {
+  color: #F3F5F7;
+  background-color: #242D2B;
+}
+
+.welcome-footer {
+  margin: 0;
+  font-size: .9rem;
+  color: grey;
+}
+
+.create-account {
+  color: #5E6572;
+  text-decoration: none;
+}
+
+.create-account:hover {
+  color: #242D2B;
+}

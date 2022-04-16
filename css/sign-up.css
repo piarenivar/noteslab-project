@@ -1,0 +1,16 @@
+.main-box {
+  height: 700px;
+}
+
+@media (max-width:650px) {
+  .main-box {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+  }
+}
