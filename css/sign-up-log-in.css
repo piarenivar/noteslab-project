@@ -47,6 +47,12 @@ body {
   margin: 64px 0 32px;
 }
 
+@media (max-width:650px) {
+  .logo {
+    margin-top: 128px;
+  }
+}
+
 /* .logo-href {
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
