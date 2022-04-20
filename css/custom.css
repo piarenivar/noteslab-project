@@ -20,6 +20,17 @@ body {
   }
 }
 
+.logo {
+  height: 2.5rem;
+  margin-right: 16px;
+}
+
+@media (max-width:650px) {
+  .logo {
+    display: none;
+  }
+}
+
 .navbar-brand {
   font-family: 'Comfortaa', cursive;
   font-weight: bold;
@@ -467,4 +478,8 @@ h2 {
 
 .piarenivar:hover {
   color: #457b9d;
+}
+
+.logo-footer {
+  margin-top: 24px;
 }
