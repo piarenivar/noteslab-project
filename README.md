@@ -1,3 +1,3 @@
-# noteslab-project
+# Noreslab
 
-This is an HTML/CSS site project for a made up note taking application.
+Simple HTML/CSS only front-end project for a notes application concept.
